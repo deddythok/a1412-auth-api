@@ -11,7 +11,7 @@ jobs:
  
     steps:
     - name: SSH and deploy app
-      uses: deddythok/a1412-auth-api@main
+      uses: deddythok/ssh-action@main
       with:
         host: ${{ secrets.SSH_HOST }}
         username: ${{ secrets.SSH_USERNAME }}
